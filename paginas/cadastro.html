@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/cadastro.css" />
+    <link
+      rel="shortcut icon"
+      href="/contents/imgs/Icon.png"
+      type="image/x-icon" />
+    <title>Studio Lótus</title>
+  </head>
+  <body>
+    <main id="conteudo-tela">
+      <nav id="cabecalho">
+        <div class="cabecalho-item" id="cabecalho-esquerda">
+          <img
+            src="/contents/imgs/cabecalho1.png"
+            alt="imagem-cabecalho"
+            id="img-hdr" />
+        </div>
+        <div class="cabecalho-item" id="cabecalho-centro">
+          <a href="/index.html">Página Inicial</a>
+          <a href="/paginas/portifolio.html">Portifólio</a>
+          <a href="/paginas/sobre.html">Sobre</a>
+        </div>
+        <div class="cabecalho-item" id="cabecalho-direita">
+          <a href="/paginas/cadastro.html">Cadastro</a>
+          <a href="/paginas/login.html">Login</a>
+        </div>
+      </nav>
+      <section id="conteudo-login">
+        <div id="conteudo-img">
+          <img
+            src="/contents/imgs/imagemFundo.png"
+            alt="flor-de-fundo"
+            id="img-tela" />
+        </div>
+        <div id="conteudo-cadastro">
+          <form action="" method="post">
+            <div>
+              <label for="user">Nome de Usuário:</label>
+              <input
+                type="text"
+                name="user"
+                id="user"
+                min="8"
+                max="14"
+                maxlength="14"
+                placeholder="Usuario" />
+            </div>
+            <div>
+              <label for="Nome">Nome:</label>
+              <input type="text" name="nome" id="nome" placeholder="Nome" />
+            </div>
+            <div>
+              <label for="Sobrenome">Sobrenome:</label>
+              <input
+                type="text"
+                name="sobrenome"
+                id="sobrenome"
+                placeholder="Sobrenome" />
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Digite seu email" />
+            </div>
+            <div>
+              <label for="senha">Senha:</label>
+              <input
+                type="password"
+                name="senha"
+                id="senha"
+                min="8"
+                max="20"
+                maxlength="20"
+                placeholder="Digite sua senha" />
+            </div>
+            <div>
+              <label for="Csenha">Confirmar Senha:</label>
+              <input
+                type="password"
+                name="Csenha"
+                id="Csenha"
+                min="8"
+                max="20"
+                maxlength="20"
+                placeholder="Digite novamente" />
+            </div>
+            <div>
+              <button type="submit">Cadastrar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
