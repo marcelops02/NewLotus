@@ -1,13 +1,13 @@
-:root{
-  --Font-Titulos: 'Roboto', sans-serif;
-  --Font-Corpo: 'Poppins', sans-serif;
+:root {
+  --Font-Titulos: "Roboto", sans-serif;
+  --Font-Corpo: "Poppins", sans-serif;
 }
-
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--Font-Corpo);
 }
 
 #img-hdr {
@@ -18,7 +18,7 @@
   width: 40rem;
 }
 
-#img-footer{
+#img-footer {
   width: 20rem;
 }
 
@@ -26,7 +26,7 @@
   width: 100px;
 }
 
-#img-sobre{
+#img-sobre {
   width: 10rem;
   border-radius: 100%;
 }
